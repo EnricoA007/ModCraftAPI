@@ -1,0 +1,17 @@
+name: ModCraftAPI
+author: Enrico_A007
+version: 0.0.1-ALPHA
+main: net.modcraft.api.main.ModCraftMain
+api-version: 1.13
+description: An application programming interface to create simple modifications in minecraft, with custom blocks/items and effects, etc.
+commands:
+     mgive:
+          permission: modcraft.item.give
+          description: Give modcraft items
+          usage: /mgive [<Player>] <Item>
+     resourcepack:
+          description: Send the server resourcepack
+          usage: /resourcepack
+     config:
+          description: Reload the config file
+          usage: /config <import/export>
